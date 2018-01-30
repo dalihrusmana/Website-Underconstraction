@@ -1,0 +1,54 @@
+body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	background-color: #EFF2F7;
+	text-align: center;
+	margin: 0;
+	padding: 0; 
+}
+.siteunder {
+	padding: 100px;
+}
+.siteunder .siteinner {
+	margin-top: 100px;
+}
+.siteunder .siteinner p {
+	opacity: 0.6;
+}
+.siteunder .siteinner span {
+	font-size: 30px;
+	font-weight: bold;
+}
+.siteunder .siteinner img {
+	opacity: 0.8;
+	margin-top: -80px;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-family: 'Comfortaa', cursive;
+		font-size: 14px;
+		background-color: #EFF2F7;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.siteunder {
+		width: auto;
+		padding: 0;
+	}
+	.siteunder .siteinner {
+		margin-top: 150px;
+		padding: 20px;
+	}
+	.siteunder .siteinner p {
+		opacity: 0.6;
+	}
+	.siteunder .siteinner span {
+		font-size: 26px;
+		font-weight: bold;
+	}
+	.siteunder .siteinner img {
+		opacity: 0.8;
+	}
+}
